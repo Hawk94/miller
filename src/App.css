@@ -15,7 +15,7 @@
   height: 100vh;
   padding-top: 50px;
   width: 100%;
-  font-family: 'Raleway-Light';
+  background-attachment: fixed;
 
   @media (max-width: $break-small) {
     min-height: 280px;
