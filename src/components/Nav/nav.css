@@ -1,0 +1,64 @@
+.App-logo {
+  margin-left: 200px;
+  height: 40px;
+  opacity: 0.9999;
+}
+
+nav {
+  margin: 0 auto;
+  z-index: -2;
+}
+
+a {
+  opacity: 0.65
+}
+a:active;
+a:visited {
+  font-weight: 500;
+  font-family: $font-family-header;
+  color: #ffffff;
+  opacity: 0.3;
+  transition: opacity 250ms ease;
+  display: block;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a.social {
+  @media (max-width: $break-small) {
+    display: none;
+  }
+
+  font-size: 0px;
+  line-height: 1;
+  padding: 5px;
+
+  img {
+    height: 18px;
+    width: auto;
+  }
+
+  &:last-child {
+    padding-right: 0px;
+  }
+}
+
+.social {
+  padding-left: 15px;
+}
+
+.social-image {
+  height: 20px;
+}
+
+.social-links {
+  text-align: right;
+  margin-top: -40px;
+  margin-right: 270px;
+}
+
+.nav {
+  z-index: 99,
+}

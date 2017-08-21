@@ -5078,6 +5078,12 @@ react-scripts@1.0.11:
   optionalDependencies:
     fsevents "1.1.2"
 
+react-sticky-el@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-sticky-el/-/react-sticky-el-1.0.13.tgz#835463eb050804956724f5d0362ad75363953129"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-sticky@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/react-sticky/-/react-sticky-6.0.1.tgz#356988bdcc6fc8cd2d89746d2302edce67d86687"

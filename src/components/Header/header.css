@@ -1,0 +1,35 @@
+.content-heading {
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-family: 'Raleway-Light';
+  color: #79c5e5;
+}
+
+.content {
+  text-align: center;
+  letter-spacing: .1px;
+  font-size: 28px;
+  line-height: 35px;
+  font-family: 'Raleway-Light';
+  color: #fff;
+}
+
+.curve {
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  margin-left: -5px;
+  bottom: -1px;
+  width: 101%;
+  z-index: -5;
+  
+  img {
+    width: 100%;
+  }
+
+  @media (max-width: $break-small) {
+    bottom: -2px;
+  }
+}

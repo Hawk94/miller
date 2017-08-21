@@ -16,6 +16,7 @@
   padding-top: 50px;
   width: 100%;
   background-attachment: fixed;
+  z-index: -6;
 
   @media (max-width: $break-small) {
     min-height: 280px;
