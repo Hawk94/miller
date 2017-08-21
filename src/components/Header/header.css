@@ -1,0 +1,194 @@
+.hero {
+  position: relative;
+  color: #ffffff;
+  background-image: linear-gradient(
+    -48deg,
+    #88d3ce 0%,
+    #5b9fc7 50%,
+    #656bb9 100%
+  );
+  box-sizing: border-box;
+  min-height: 700px;
+  height: 100vh;
+  overflow: hidden;
+
+  @media (max-width: $break-small) {
+    min-height: 280px;
+  }
+
+  &:after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    min-width: 770px;
+    min-height: 770px;
+    background: url(../../Assets/images/circle-1.svg) bottom right no-repeat;
+    background-size: 100%;
+    z-index: 1;
+  }
+
+  .curve {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    font-size: 0px;
+    line-height: 1;
+    z-index: 99;
+
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: $break-small) {
+      bottom: -2px;
+    }
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 9;
+    padding: 0px;
+  }
+
+  header {
+    height: 98px;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+    .branding {
+      flex: 1 100%;
+      font-size: 0px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+
+      @media (max-width: $break-small) {
+        margin-left: 15px;
+      }
+
+      img {
+        width: 143px;
+        height: 48px;
+      }
+    }
+
+    nav {
+      display: flex;
+      flex: 0 0 auto;
+      align-items: center;
+
+      a,
+      a:active,
+      a:visited {
+        font-weight: 500;
+        font-family: $font-family-header;
+        color: #ffffff;
+        opacity: .65;
+        transition: opacity 250ms ease;
+        display: block;
+      }
+
+      a:hover {
+        opacity: 1;
+      }
+
+      .join {
+        margin-right: $spacer * 2;
+      }
+
+      a.social {
+        @media (max-width: $break-small) {
+          display: none;
+        }
+
+        font-size: 0px;
+        line-height: 1;
+        padding: 5px;
+
+        img {
+          height: 18px;
+          width: auto;
+        }
+
+        &:last-child {
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+
+  .intro {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex: 60%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-right: $spacer * 2;
+    padding-bottom: $spacer * 2;
+
+    @media (max-width: $break-small) {
+      text-align: center;
+      padding-left: $spacer * 2;
+    }
+
+    .display-1 {
+      margin-top: 0px;
+      @media (max-width: $break-small) {
+        font-size: 32px;
+      }
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      margin: 0px;
+    }
+
+    .btn {
+      background-color: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+      transition: all 250ms ease;
+      &:hover {
+        background-color: #ffffff;
+        color: #605cab;
+      }
+    }
+  }
+
+  .screenshot {
+    display: flex;
+    font-size: 0px;
+    line-height: 1;
+    align-items: flex-end;
+
+    @media (max-width: $break-small) {
+      display: none;
+    }
+
+    img {
+      width: 331px;
+      height: 578px;
+    }
+  }
+
+  footer {
+    margin-top: $spacer * 2.5;
+  }
+}
