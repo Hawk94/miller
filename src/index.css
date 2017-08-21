@@ -1,5 +1,56 @@
+$break-small: 540px;
+$spacer: 1rem;
+$grid-gutter: 20px;
+$font-family-header: 'Raleway-Light';
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url('./Assets/raleway/Raleway-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: #f6f9fc;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+html {
+  @media (max-width: $break-small) {
+    font-size: 14px;
+  }
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: $break-small) {
+    padding: 0 $spacer;
+  }
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-header;
+  color: #49555f;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.125rem;
 }

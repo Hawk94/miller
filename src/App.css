@@ -7,10 +7,20 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  text-align: left;
+  background: url('./Assets/images/Background-Splash.png');
+  background-position: center;
+  position: relative;
+  min-height: 700px;
+  height: 100vh;
+  padding-top: 50px;
+  width: 100%;
+  font-family: 'Raleway-Light';
+
+  @media (max-width: $break-small) {
+    min-height: 280px;
+  }
+
 }
 
 .App-intro {

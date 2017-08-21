@@ -6,7 +6,15 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Header />
+      <div className='App'>
+        <div className='App-header'>
+          <Header />
+        </div>
+        <div className='App-intro'>
+        </div>
+        <div className='App-body'>
+        </div>
+      </div>
     );
   }
 }
