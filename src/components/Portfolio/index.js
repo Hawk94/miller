@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
         </div>
         <div className='feature' >
           <figure>
-            <a href='https://sparesfinder.com'><img src={sF} className='sf' alt='' /></a>
+            <a href='https://sparesfinder.com'><img src={sF} className='sF' alt='' /></a>
           </figure>
           <h4>sparesFinder</h4>
           <span>Materials data management</span>

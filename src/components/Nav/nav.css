@@ -1,12 +1,16 @@
 .App-logo {
-  margin-left: 200px;
-  height: 40px;
+  margin-left: 270px;
+  height: 30px;
   opacity: 0.9999;
+}
+
+.social {
+  opacity: 0.65
 }
 
 nav {
   margin: 0 auto;
-  z-index: -2;
+  z-index: 99;
 }
 
 a {
@@ -27,6 +31,8 @@ a:hover {
 }
 
 a.social {
+  padding-left: 15px;
+
   @media (max-width: $break-small) {
     display: none;
   }
@@ -36,7 +42,7 @@ a.social {
   padding: 5px;
 
   img {
-    height: 18px;
+    height: 30px;
     width: auto;
   }
 
@@ -45,20 +51,12 @@ a.social {
   }
 }
 
-.social {
-  padding-left: 15px;
-}
-
 .social-image {
   height: 20px;
 }
 
 .social-links {
   text-align: right;
-  margin-top: -40px;
+  margin-top: -55px;
   margin-right: 270px;
-}
-
-.nav {
-  z-index: 99,
 }
