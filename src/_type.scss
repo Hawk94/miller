@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Circular';
+  src: url('./Assets/fonts/CircularStd-Book.eot');
+  src: url('./Assets/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('./Assets/fonts/CircularStd-Book.woff2') format('woff2'),
+    url('./Assets/fonts/CircularStd-Book.woff') format('woff'),
+    url('./Assets/fonts/CircularStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('./Assets/fonts/CircularStd-BookItalic.eot');
+  src: url('./Assets/fonts/CircularStd-BookItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('./Assets/fonts/CircularStd-BookItalic.woff2') format('woff2'),
+    url('./Assets/fonts/CircularStd-BookItalic.woff') format('woff'),
+    url('./Assets/fonts/CircularStd-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CircularHeader';
+  src: url('./Assets/fonts/CircularStd-Medium.eot');
+  src: url('./Assets/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Assets/fonts/CircularStd-Medium.woff2') format('woff2'),
+    url('./Assets/fonts/CircularStd-Medium.woff') format('woff'),
+    url('./Assets/fonts/CircularStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularHeader';
+  src: url('./Assets/fonts/CircularStd-Bold.eot');
+  src: url('./Assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Assets/fonts/CircularStd-Bold.woff2') format('woff2'),
+    url('./Assets/fonts/CircularStd-Bold.woff') format('woff'),
+    url('./Assets/fonts/CircularStd-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularHeader';
+  src: url('./Assets/fonts/CircularStd-Black.eot');
+  src: url('./Assets/fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('./Assets/fonts/CircularStd-Black.woff2') format('woff2'),
+    url('./Assets/fonts/CircularStd-Black.woff') format('woff'),
+    url('./Assets/fonts/CircularStd-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-header;
+}

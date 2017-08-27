@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import whiteCurve from '../../Assets/images/white-curve.svg'
 
-import "./about.css"
-
 
 export default class About extends Component {
   render () {

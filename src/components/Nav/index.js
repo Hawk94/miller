@@ -5,7 +5,6 @@ import facebook from '../../Assets/images/icon-facebook.svg';
 import twitter from '../../Assets/images/icon-twitter.svg';
 import telegram from '../../Assets/images/icon-telegram.svg';
 import slack from '../../Assets/images/icon-slack.svg';
-import "./nav.css"
 
 export default class stickyHeader extends Component {
   render () {

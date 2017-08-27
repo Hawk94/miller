@@ -3,8 +3,6 @@ import GS from '../../Assets/images/gs_logo.svg'
 import sF from '../../Assets/images/sF_logo.svg'
 import Dust from '../../Assets/images/logo.svg'
 
-import "./portfolio.css"
-
 
 export default class Portfolio extends Component {
   render () {

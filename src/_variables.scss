@@ -1,0 +1,37 @@
+$font-family-sans-serif: "Circular", -apple-system, system-ui,
+  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  sans-serif !default;
+
+$font-family-header: "CircularHeader", -apple-system, system-ui,
+  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  sans-serif !default;
+
+$color-gray-darkest: #32325d;
+$color-gray: #6b7c93;
+
+$body-color: $color-gray;
+
+$display1-size: 2.25rem;
+$display1-weight: 700;
+
+$headings-line-height: 1.4;
+
+$btn-border-radius: 9px;
+$btn-font-weight: 600;
+$btn-secondary-color: $color-gray-darkest;
+$btn-secondary-bg: #ffffff;
+$btn-box-shadow: none;
+$input-btn-line-height: 1;
+
+$spacer: 1rem;
+$grid-gutter: 20px;
+
+$brand-purple: #a2ace7;
+/*$brand-primary:             $blue;
+$brand-success:             $green;
+$brand-info:                $teal;
+$brand-warning:             $orange;
+$brand-danger:              $red;
+$brand-inverse:             $gray-dark;*/
+
+$break-small: 540px;
