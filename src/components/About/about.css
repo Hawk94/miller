@@ -1,3 +1,55 @@
 .about {
   background: #ffffff
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  border-radius: 15px;
+  /*box-shadow: 0 4px 18px 0 rgba(189, 208, 223, 0.3);*/
+  margin-right: 25px;
+  margin-top: 20px;
+  font-family: 'Lato-bold';
+}
+
+.react {
+  height: 180px;
+  width: 117px;
+}
+
+.django {
+  margin-top: 25px;
+  margin-left: -35px;
+  height: 130px;
+  width: 290px;
+}
+
+.redux {
+  margin-top: 25px;
+  margin-left: -30px;
+  height: 120px;
+  width: 290px;
+}
+
+.python {
+  margin-top: 45px;
+  margin-left: -30px;
+  height: 99px;
+  width: 290px;
+}
+
+.saga {
+  margin-top: 30px;
+  margin-left: -30px;
+  height: 108px;
+  width: 290px;
+}

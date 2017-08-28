@@ -7,10 +7,10 @@ import telegram from '../../Assets/images/icon-telegram.svg';
 import slack from '../../Assets/images/icon-slack.svg';
 import "./nav.css"
 
-export default class stickyHeader extends Component {
+export default class Nav extends Component {
   render () {
     return (
-      <Sticky className='nav'>
+      <div className='nav'>
         <nav>
         <a href='https://miller.mx'><img src={logo} className='App-logo' alt='logo' /></a>
         <p className='social-links'>
@@ -21,7 +21,7 @@ export default class stickyHeader extends Component {
         </p>
 
         </nav>
-      </Sticky>
+      </div>
     )
   }
 }

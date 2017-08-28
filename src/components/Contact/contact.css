@@ -1,0 +1,16 @@
+.contact {
+  background: url('../../Assets/images/Background-Splash.png');
+  background-position: center;
+  position: relative;
+  min-height: 700px;
+  height: 100vh;
+  margin-top: -1px;
+  width: 100%;
+  background-attachment: fixed;
+  z-index: -6;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Raleway-Light';
+}
