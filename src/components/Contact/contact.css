@@ -18,6 +18,15 @@
   color: #fff;
 }
 
+.white-curve {
+  user-select: none;
+  pointer-events: none;
+  margin-left: -10px;
+  margin-top: -1px;
+  width: 102%;
+  z-index: 0;
+}
+
 .lowerNav {
   border-bottom: None
 }
