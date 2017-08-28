@@ -16,7 +16,7 @@ export default class About extends Component {
       <div className="white-curve"><img src={whiteCurve} alt="" /></div>
         <div className='title'>
           <h2>About</h2>
-          <p className='description'>Experienced building complex websites uisng Python & the Django Web fraework for backend development and React JS in the frontend.</p>
+          <p className='description'>Experienced building complex websites using Python & the Django Web framework for backend development and React JS in the frontend.</p>
         </div>
         <div className='skills'>
           <div className='skill'>
