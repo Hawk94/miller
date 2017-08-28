@@ -2,15 +2,39 @@
   background: url('../../Assets/images/Background-Splash.png');
   background-position: center;
   position: relative;
-  min-height: 700px;
-  height: 100vh;
+  min-height: 200px;
+  height: 50vh;
   margin-top: -1px;
   width: 100%;
   background-attachment: fixed;
-  z-index: -6;
 }
 
-.title {
+.contact_title {
   text-align: center;
   font-family: 'Raleway-Light';
+}
+
+.whiteHeader {
+  color: #fff;
+}
+
+.lowerNav {
+  border-bottom: None
+}
+
+.email {
+  height: 20px;
+  width: 20px;
+}
+
+footer.footer {
+  padding: $spacer * 8 0;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 10px $spacer * 2;
+  }
 }

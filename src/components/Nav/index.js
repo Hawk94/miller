@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import Sticky from 'react-sticky-el'
 import logo from '../../logo.svg'
-import facebook from '../../Assets/images/icon-facebook.svg';
 import twitter from '../../Assets/images/icon-twitter.svg';
 import telegram from '../../Assets/images/icon-telegram.svg';
 import slack from '../../Assets/images/icon-slack.svg';
+import linkedin from '../../Assets/images/linkedin.svg';
 import "./nav.css"
 
 export default class Nav extends Component {
@@ -12,12 +11,12 @@ export default class Nav extends Component {
     return (
       <div className='nav'>
         <nav>
-        <a href='https://miller.mx'><img src={logo} className='App-logo' alt='logo' /></a>
+        <a id='link' href='https://miller.mx'><img src={logo} className='App-logo' alt='logo' /></a>
         <p className='social-links'>
-          <a href='https://dustapp.slack.com' className='social'><img src={slack} className='social-image' alt='Slack' /></a>
-          <a href='https://twitter.com/dustcrypto' className='social'><img src={twitter} className='social-image' alt='Twitter' /></a>
-          <a href='https://www.facebook.com/Dust-108192633212782/' className='social'><img src={facebook} className='social-image' alt='Facebook' /></a>
-          <a href='https://t.me/joinchat/Ajb2Y0RyndwDiEAO4V-4qQ' className='social'><img src={telegram} className='social-image' alt='Slack' /></a>
+          <a id='link' href='https://millermiller.slack.com' className='social'><img src={slack} className='social-image' alt='Slack' /></a>
+          <a href="https://twitter.com/millertom_94" className="social"><img src={twitter} alt="Twitter" /></a>
+          <a href="https://t.me/joinchat/AAAAAEOvLZPVgDx-9sGKQQ" className="social"><img src={telegram} alt="Telegram" /></a>
+          <a href="https://www.linkedin.com/in/tom-miller-9b205139/" className="social"><img src={linkedin} alt="Linkedin" /></a>
         </p>
 
         </nav>

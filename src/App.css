@@ -11,12 +11,11 @@
   background: url('./Assets/images/Background-Splash.png');
   background-position: center;
   position: relative;
-  min-height: 700px;
+  min-height: 600px;
   height: 100vh;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 100%;
   background-attachment: fixed;
-  z-index: -6;
 
   @media (max-width: $break-small) {
     min-height: 280px;

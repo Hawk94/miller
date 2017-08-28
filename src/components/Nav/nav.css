@@ -1,11 +1,11 @@
 .App-logo {
-  margin-left: 270px;
   height: 30px;
 }
 
 nav {
   margin: 0 auto;
-  z-index: 99;
+  width: 70%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .social-image {
@@ -19,5 +19,13 @@ nav {
 .social-links {
   text-align: right;
   margin-top: -55px;
-  margin-right: 270px;
+}
+
+a {
+  color: #ffffff;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.65;
 }

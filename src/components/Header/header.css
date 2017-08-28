@@ -23,7 +23,7 @@
   margin-left: -5px;
   bottom: -1px;
   width: 101%;
-  z-index: -5;
+  z-index: 0;
   
   img {
     width: 100%;

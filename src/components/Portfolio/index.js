@@ -12,7 +12,7 @@ export default class Portfolio extends Component {
     return (
       <div className='portfolio'>
         <div className='title'>
-          <h1>Portfolio</h1>
+          <h2>Portfolio</h2>
           <p className='description'>Financial Services - Cryptocurrency Exchange - Big Data Management</p>
         </div>
         <div className='projects'>

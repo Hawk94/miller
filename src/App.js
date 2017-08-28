@@ -4,7 +4,6 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 import './App.css';
 
@@ -22,7 +21,6 @@ class App extends Component {
         <div className='App-body'>
           <About />
           <Contact />
-          <Footer />
         </div>
       </div>
     );

@@ -13,54 +13,57 @@
   font-family: 'Raleway-Light';
 }
 
-.description {
-  
-}
-
 .gs-box {
+  color: #ffffff;
   box-sizing: border-box;
   background-image: url('../../Assets/images/pattern-light.png');
   width: 200px;
   height: 100px;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 4px 18px 0 rgba(189, 208, 223, 0.3);
   margin-right: 25px;
   margin-top: 20px;
   font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
 }
 
 .dust-box {
   color: #ffffff;
+  box-sizing: border-box;
   background-image: linear-gradient(
     -48deg,
     #88d3ce 0%,
     #5b9fc7 50%,
     #656bb9 100%
   );
-  box-sizing: border-box;
   width: 200px;
   height: 100px;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 4px 18px 0 rgba(189, 208, 223, 0.3);
   margin-right: 25px;
   margin-top: 20px;
   font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
 }
 
 .sF-box {
-  background-color: #ffffff;
-  background-image: url('../../Assets/images/Background-Splash.png');
+  color: #ffffff;
   box-sizing: border-box;
+  background-image: url('../../Assets/images/Background-Splash.png');
   width: 200px;
   height: 100px;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 4px 18px 0 rgba(189, 208, 223, 0.3);
   margin-right: 25px;
   margin-top: 20px;
   font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
 }
 
 .gs {

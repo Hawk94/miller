@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Slider from 'react-slick'
 import whiteCurve from '../../Assets/images/white-curve.svg'
 import django from '../../Assets/images/django.png'
 import react from '../../Assets/images/React-JS.png'
@@ -16,7 +15,7 @@ export default class About extends Component {
       <section className='about'>
       <div className="white-curve"><img src={whiteCurve} alt="" /></div>
         <div className='title'>
-          <h1>About</h1>
+          <h2>About</h2>
           <p className='description'>Experienced building complex websites uisng Python & the Django Web fraework for backend development and React JS in the frontend.</p>
         </div>
         <div className='skills'>
