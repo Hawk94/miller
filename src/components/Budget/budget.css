@@ -1,0 +1,99 @@
+.budget {
+  padding-bottom: 100px;
+}
+
+.Budget-header {
+  text-align: left;
+  background: url('./../../Assets/images/Background-Splash.png');
+  background-position: center;
+  position: relative;
+  min-height: 600px;
+  height: 108vh;
+  padding-top: 30px;
+  width: 100%;
+  background-attachment: fixed;
+
+  @media (max-width: $break-small) {
+    min-height: 280px;
+  }
+
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Raleway-Light';
+}
+
+.google-box {
+  color: #ffffff;
+  box-sizing: border-box;
+  background-image: url('../../Assets/images/pattern-light.png');
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-top: 20px;
+  font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
+}
+
+.starling-box {
+  color: #ffffff;
+  background-color: #181238;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-top: 20px;
+  font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
+}
+
+.notifications-box {
+  color: #ffffff;
+  box-sizing: border-box;
+  background-image: url('../../Assets/images/Background-Splash.png');
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right: 25px;
+  margin-top: 20px;
+  font-family: 'Lato-bold';
+  position:relative;
+  z-index: 15;
+  box-shadow: 0 4px 18px rgba(0,0,0,.3);
+}
+
+.google {
+  height: 50px;
+  margin-left: -10px;
+  margin-top: 0
+}
+
+.starling {
+  margin: 0;
+  margin-top: 4px;
+  margin-left: -30px;
+  height: 40px;
+}
+
+.notifications {
+  margin-top: -15px;
+  margin-left: -10px;
+  width: 100px;
+}

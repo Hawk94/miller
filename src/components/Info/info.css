@@ -1,0 +1,8 @@
+.info {
+  background: #ffffff;
+}
+
+.info > .title > .description {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}

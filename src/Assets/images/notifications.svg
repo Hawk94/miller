@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="174px" viewBox="0 0 212 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>group-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="group-4" transform="translate(-18.000000, -14.000000)" stroke-width="1.7">
+            <g id="Group" transform="translate(123.194977, 101.320298) rotate(-30.000000) translate(-123.194977, -101.320298) translate(11.694977, 48.820298)">
+                <g id="Group-2" transform="translate(-0.009792, 0.122091)">
+                    <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(169.001142, 2.869107)" stroke="#73AFFE">
+                        <path d="M0.005,39 C3.112,42.331 5,46.707 5,51.499 C5,56.293 3.112,60.669 0,64 M14.005,19 C22.595,26.863 28,38.284 28,50.999 C28,63.713 22.593,75.139 14,83 M29.01,0 C43.678,12.213 53,30.527 53,50.996 C53,71.471 43.674,89.786 29,102" id="Shape"></path>
+                    </g>
+                    <path d="M46.3441423,75.647107 L40.2821423,99.007107 C39.2601423,102.947107 35.3371423,105.286107 31.5201423,104.230107 C27.7041423,103.174107 25.4401423,99.124107 26.4621423,95.183107 L32.4521423,72.099107 L14.3091423,67.464107 L14.3091423,40.568107 L134.559142,9.14210695 L134.559142,98.182107 L46.3441423,75.646107 L46.3441423,75.647107 Z" id="Shape" stroke="#FFFFFF"></path>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" x="0.00114228633" y="32.869107" width="14" height="40" rx="7"></rect>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" x="135.001142" y="0.869106952" width="14" height="104" rx="7"></rect>
+                    <path d="M28.3721423,45.373107 L95.6521423,28.050107 M101.829142,26.460107 L118.409142,22.191107" id="Shape" stroke="#FFFFFF" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
